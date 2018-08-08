@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462CA108211AF3AE00C9190A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA107211AF3AE00C9190A /* AppDelegate.m */; };
+		462CA10B211AF3AF00C9190A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA10A211AF3AF00C9190A /* ViewController.m */; };
+		462CA10E211AF3AF00C9190A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462CA10C211AF3AF00C9190A /* Main.storyboard */; };
+		462CA110211AF3AF00C9190A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462CA10F211AF3AF00C9190A /* Assets.xcassets */; };
+		462CA113211AF3AF00C9190A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462CA111211AF3AF00C9190A /* LaunchScreen.storyboard */; };
+		462CA116211AF3AF00C9190A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA115211AF3AF00C9190A /* main.m */; };
+		462CA146211AF3CE00C9190A /* CLGTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA11E211AF3CE00C9190A /* CLGTMBase64.m */; };
+		462CA147211AF3CE00C9190A /* CLNSObject+Encrypt3DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA122211AF3CE00C9190A /* CLNSObject+Encrypt3DES.m */; };
+		462CA148211AF3CE00C9190A /* CLADProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA124211AF3CE00C9190A /* CLADProgressBar.m */; };
+		462CA149211AF3CE00C9190A /* CLAdTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA125211AF3CE00C9190A /* CLAdTabBarView.m */; };
+		462CA14A211AF3CE00C9190A /* CLAdWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA126211AF3CE00C9190A /* CLAdWebView.m */; };
+		462CA14B211AF3CE00C9190A /* CLNJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA12B211AF3CE00C9190A /* CLNJKWebViewProgress.m */; };
+		462CA14C211AF3CE00C9190A /* CLNJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA12C211AF3CE00C9190A /* CLNJKWebViewProgressView.m */; };
+		462CA14D211AF3CE00C9190A /* CLADObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA130211AF3CE00C9190A /* CLADObject.m */; };
+		462CA14E211AF3CE00C9190A /* CLDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA131211AF3CE00C9190A /* CLDataCache.m */; };
+		462CA14F211AF3CE00C9190A /* CLCoreStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA136211AF3CE00C9190A /* CLCoreStatus.m */; };
+		462CA150211AF3CE00C9190A /* CLReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA13C211AF3CE00C9190A /* CLReachability.m */; };
+		462CA151211AF3CE00C9190A /* CLVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA140211AF3CE00C9190A /* CLVersionManager.m */; };
+		462CA152211AF3CE00C9190A /* CLAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA143211AF3CE00C9190A /* CLAdView.m */; };
+		462CA153211AF3CE00C9190A /* CLADObjectConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA144211AF3CE00C9190A /* CLADObjectConfig.m */; };
+		462CA154211AF3CE00C9190A /* CLADNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 462CA145211AF3CE00C9190A /* CLADNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462CA103211AF3AE00C9190A /* CLADKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLADKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		462CA106211AF3AE00C9190A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		462CA107211AF3AE00C9190A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		462CA109211AF3AE00C9190A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		462CA10A211AF3AF00C9190A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		462CA10D211AF3AF00C9190A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462CA10F211AF3AF00C9190A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462CA112211AF3AF00C9190A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		462CA114211AF3AF00C9190A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462CA115211AF3AF00C9190A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		462CA11E211AF3CE00C9190A /* CLGTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLGTMBase64.m; sourceTree = "<group>"; };
+		462CA11F211AF3CE00C9190A /* CLNSObject+Encrypt3DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLNSObject+Encrypt3DES.h"; sourceTree = "<group>"; };
+		462CA120211AF3CE00C9190A /* CLGTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGTMBase64.h; sourceTree = "<group>"; };
+		462CA121211AF3CE00C9190A /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		462CA122211AF3CE00C9190A /* CLNSObject+Encrypt3DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLNSObject+Encrypt3DES.m"; sourceTree = "<group>"; };
+		462CA123211AF3CE00C9190A /* CLDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDataCache.h; sourceTree = "<group>"; };
+		462CA124211AF3CE00C9190A /* CLADProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLADProgressBar.m; sourceTree = "<group>"; };
+		462CA125211AF3CE00C9190A /* CLAdTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAdTabBarView.m; sourceTree = "<group>"; };
+		462CA126211AF3CE00C9190A /* CLAdWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAdWebView.m; sourceTree = "<group>"; };
+		462CA127211AF3CE00C9190A /* CLVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLVersionManager.h; sourceTree = "<group>"; };
+		462CA128211AF3CE00C9190A /* CLADNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLADNetworking.h; sourceTree = "<group>"; };
+		462CA129211AF3CE00C9190A /* CLADObjectConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLADObjectConfig.h; sourceTree = "<group>"; };
+		462CA12B211AF3CE00C9190A /* CLNJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNJKWebViewProgress.m; sourceTree = "<group>"; };
+		462CA12C211AF3CE00C9190A /* CLNJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNJKWebViewProgressView.m; sourceTree = "<group>"; };
+		462CA12D211AF3CE00C9190A /* CLNJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNJKWebViewProgress.h; sourceTree = "<group>"; };
+		462CA12E211AF3CE00C9190A /* CLNJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNJKWebViewProgressView.h; sourceTree = "<group>"; };
+		462CA12F211AF3CE00C9190A /* CLAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAdView.h; sourceTree = "<group>"; };
+		462CA130211AF3CE00C9190A /* CLADObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLADObject.m; sourceTree = "<group>"; };
+		462CA131211AF3CE00C9190A /* CLDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDataCache.m; sourceTree = "<group>"; };
+		462CA132211AF3CE00C9190A /* LisztADHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisztADHeader.h; sourceTree = "<group>"; };
+		462CA133211AF3CE00C9190A /* CLAdTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAdTabBarView.h; sourceTree = "<group>"; };
+		462CA135211AF3CE00C9190A /* CLCoreStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCoreStatus.h; sourceTree = "<group>"; };
+		462CA136211AF3CE00C9190A /* CLCoreStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCoreStatus.m; sourceTree = "<group>"; };
+		462CA138211AF3CE00C9190A /* CoreStatusProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusProtocol.h; sourceTree = "<group>"; };
+		462CA13A211AF3CE00C9190A /* CoreStatusSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusSingleton.h; sourceTree = "<group>"; };
+		462CA13C211AF3CE00C9190A /* CLReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLReachability.m; sourceTree = "<group>"; };
+		462CA13D211AF3CE00C9190A /* CLReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLReachability.h; sourceTree = "<group>"; };
+		462CA13E211AF3CE00C9190A /* CoreNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreNetworkStatus.h; sourceTree = "<group>"; };
+		462CA13F211AF3CE00C9190A /* CLADProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLADProgressBar.h; sourceTree = "<group>"; };
+		462CA140211AF3CE00C9190A /* CLVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLVersionManager.m; sourceTree = "<group>"; };
+		462CA141211AF3CE00C9190A /* CLAdWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAdWebView.h; sourceTree = "<group>"; };
+		462CA142211AF3CE00C9190A /* CLADObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLADObject.h; sourceTree = "<group>"; };
+		462CA143211AF3CE00C9190A /* CLAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAdView.m; sourceTree = "<group>"; };
+		462CA144211AF3CE00C9190A /* CLADObjectConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLADObjectConfig.m; sourceTree = "<group>"; };
+		462CA145211AF3CE00C9190A /* CLADNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLADNetworking.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462CA100211AF3AE00C9190A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462CA0FA211AF3AE00C9190A = {
+			isa = PBXGroup;
+			children = (
+				462CA105211AF3AE00C9190A /* CLADKitSample */,
+				462CA104211AF3AE00C9190A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462CA104211AF3AE00C9190A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462CA103211AF3AE00C9190A /* CLADKitSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462CA105211AF3AE00C9190A /* CLADKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				462CA11C211AF3CE00C9190A /* CLADKit */,
+				462CA106211AF3AE00C9190A /* AppDelegate.h */,
+				462CA107211AF3AE00C9190A /* AppDelegate.m */,
+				462CA109211AF3AE00C9190A /* ViewController.h */,
+				462CA10A211AF3AF00C9190A /* ViewController.m */,
+				462CA10C211AF3AF00C9190A /* Main.storyboard */,
+				462CA10F211AF3AF00C9190A /* Assets.xcassets */,
+				462CA111211AF3AF00C9190A /* LaunchScreen.storyboard */,
+				462CA114211AF3AF00C9190A /* Info.plist */,
+				462CA115211AF3AF00C9190A /* main.m */,
+			);
+			path = CLADKitSample;
+			sourceTree = "<group>";
+		};
+		462CA11C211AF3CE00C9190A /* CLADKit */ = {
+			isa = PBXGroup;
+			children = (
+				462CA11D211AF3CE00C9190A /* GTMBase64 */,
+				462CA123211AF3CE00C9190A /* CLDataCache.h */,
+				462CA124211AF3CE00C9190A /* CLADProgressBar.m */,
+				462CA125211AF3CE00C9190A /* CLAdTabBarView.m */,
+				462CA126211AF3CE00C9190A /* CLAdWebView.m */,
+				462CA127211AF3CE00C9190A /* CLVersionManager.h */,
+				462CA128211AF3CE00C9190A /* CLADNetworking.h */,
+				462CA129211AF3CE00C9190A /* CLADObjectConfig.h */,
+				462CA12A211AF3CE00C9190A /* NJKWebViewProgress */,
+				462CA12F211AF3CE00C9190A /* CLAdView.h */,
+				462CA130211AF3CE00C9190A /* CLADObject.m */,
+				462CA131211AF3CE00C9190A /* CLDataCache.m */,
+				462CA132211AF3CE00C9190A /* LisztADHeader.h */,
+				462CA133211AF3CE00C9190A /* CLAdTabBarView.h */,
+				462CA134211AF3CE00C9190A /* CoreStatus */,
+				462CA13F211AF3CE00C9190A /* CLADProgressBar.h */,
+				462CA140211AF3CE00C9190A /* CLVersionManager.m */,
+				462CA141211AF3CE00C9190A /* CLAdWebView.h */,
+				462CA142211AF3CE00C9190A /* CLADObject.h */,
+				462CA143211AF3CE00C9190A /* CLAdView.m */,
+				462CA144211AF3CE00C9190A /* CLADObjectConfig.m */,
+				462CA145211AF3CE00C9190A /* CLADNetworking.m */,
+			);
+			path = CLADKit;
+			sourceTree = "<group>";
+		};
+		462CA11D211AF3CE00C9190A /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				462CA11E211AF3CE00C9190A /* CLGTMBase64.m */,
+				462CA11F211AF3CE00C9190A /* CLNSObject+Encrypt3DES.h */,
+				462CA120211AF3CE00C9190A /* CLGTMBase64.h */,
+				462CA121211AF3CE00C9190A /* GTMDefines.h */,
+				462CA122211AF3CE00C9190A /* CLNSObject+Encrypt3DES.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		462CA12A211AF3CE00C9190A /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				462CA12B211AF3CE00C9190A /* CLNJKWebViewProgress.m */,
+				462CA12C211AF3CE00C9190A /* CLNJKWebViewProgressView.m */,
+				462CA12D211AF3CE00C9190A /* CLNJKWebViewProgress.h */,
+				462CA12E211AF3CE00C9190A /* CLNJKWebViewProgressView.h */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		462CA134211AF3CE00C9190A /* CoreStatus */ = {
+			isa = PBXGroup;
+			children = (
+				462CA135211AF3CE00C9190A /* CLCoreStatus.h */,
+				462CA136211AF3CE00C9190A /* CLCoreStatus.m */,
+				462CA137211AF3CE00C9190A /* Lib */,
+			);
+			path = CoreStatus;
+			sourceTree = "<group>";
+		};
+		462CA137211AF3CE00C9190A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				462CA138211AF3CE00C9190A /* CoreStatusProtocol.h */,
+				462CA139211AF3CE00C9190A /* Singleton */,
+				462CA13B211AF3CE00C9190A /* Reachability */,
+				462CA13E211AF3CE00C9190A /* CoreNetworkStatus.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		462CA139211AF3CE00C9190A /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				462CA13A211AF3CE00C9190A /* CoreStatusSingleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		462CA13B211AF3CE00C9190A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				462CA13C211AF3CE00C9190A /* CLReachability.m */,
+				462CA13D211AF3CE00C9190A /* CLReachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462CA102211AF3AE00C9190A /* CLADKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462CA119211AF3AF00C9190A /* Build configuration list for PBXNativeTarget "CLADKitSample" */;
+			buildPhases = (
+				462CA0FF211AF3AE00C9190A /* Sources */,
+				462CA100211AF3AE00C9190A /* Frameworks */,
+				462CA101211AF3AE00C9190A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLADKitSample;
+			productName = CLADKitSample;
+			productReference = 462CA103211AF3AE00C9190A /* CLADKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462CA0FB211AF3AE00C9190A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = CLADKitSample;
+				TargetAttributes = {
+					462CA102211AF3AE00C9190A = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 462CA0FE211AF3AE00C9190A /* Build configuration list for PBXProject "CLADKitSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462CA0FA211AF3AE00C9190A;
+			productRefGroup = 462CA104211AF3AE00C9190A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462CA102211AF3AE00C9190A /* CLADKitSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462CA101211AF3AE00C9190A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462CA113211AF3AF00C9190A /* LaunchScreen.storyboard in Resources */,
+				462CA110211AF3AF00C9190A /* Assets.xcassets in Resources */,
+				462CA10E211AF3AF00C9190A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462CA0FF211AF3AE00C9190A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462CA146211AF3CE00C9190A /* CLGTMBase64.m in Sources */,
+				462CA149211AF3CE00C9190A /* CLAdTabBarView.m in Sources */,
+				462CA153211AF3CE00C9190A /* CLADObjectConfig.m in Sources */,
+				462CA10B211AF3AF00C9190A /* ViewController.m in Sources */,
+				462CA116211AF3AF00C9190A /* main.m in Sources */,
+				462CA152211AF3CE00C9190A /* CLAdView.m in Sources */,
+				462CA14F211AF3CE00C9190A /* CLCoreStatus.m in Sources */,
+				462CA150211AF3CE00C9190A /* CLReachability.m in Sources */,
+				462CA108211AF3AE00C9190A /* AppDelegate.m in Sources */,
+				462CA154211AF3CE00C9190A /* CLADNetworking.m in Sources */,
+				462CA14E211AF3CE00C9190A /* CLDataCache.m in Sources */,
+				462CA151211AF3CE00C9190A /* CLVersionManager.m in Sources */,
+				462CA14A211AF3CE00C9190A /* CLAdWebView.m in Sources */,
+				462CA14B211AF3CE00C9190A /* CLNJKWebViewProgress.m in Sources */,
+				462CA148211AF3CE00C9190A /* CLADProgressBar.m in Sources */,
+				462CA14D211AF3CE00C9190A /* CLADObject.m in Sources */,
+				462CA14C211AF3CE00C9190A /* CLNJKWebViewProgressView.m in Sources */,
+				462CA147211AF3CE00C9190A /* CLNSObject+Encrypt3DES.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		462CA10C211AF3AF00C9190A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462CA10D211AF3AF00C9190A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462CA111211AF3AF00C9190A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462CA112211AF3AF00C9190A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462CA117211AF3AF00C9190A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		462CA118211AF3AF00C9190A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462CA11A211AF3AF00C9190A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6422F3U55Q;
+				INFOPLIST_FILE = CLADKitSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLADKitSample.CLADKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		462CA11B211AF3AF00C9190A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6422F3U55Q;
+				INFOPLIST_FILE = CLADKitSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLADKitSample.CLADKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462CA0FE211AF3AE00C9190A /* Build configuration list for PBXProject "CLADKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462CA117211AF3AF00C9190A /* Debug */,
+				462CA118211AF3AF00C9190A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462CA119211AF3AF00C9190A /* Build configuration list for PBXNativeTarget "CLADKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462CA11A211AF3AF00C9190A /* Debug */,
+				462CA11B211AF3AF00C9190A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462CA0FB211AF3AE00C9190A /* Project object */;
+}
